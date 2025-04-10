@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>play-button-6.png</file>
+    <file>stop.jpeg</file>
+    <file>arrows.svg</file>
+  </qresource>
+</RCC>

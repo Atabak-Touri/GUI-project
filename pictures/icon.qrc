@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="batteryIcon">
+    <file>66821.png</file>
+    <file>arrows-circle-of-two-rotating-in-clockwise-direction.png</file>
+  </qresource>
+  <qresource prefix="newPrefix">
+    <file>arrows-circle-of-two-rotating-in-clockwise-direction.png</file>
+  </qresource>
+</RCC>

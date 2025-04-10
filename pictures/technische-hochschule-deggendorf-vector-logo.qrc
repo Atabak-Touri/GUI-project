@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>technische-hochschule-deggendorf-vector-logo.jpg</file>
+  </qresource>
+</RCC>
