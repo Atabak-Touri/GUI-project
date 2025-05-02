@@ -77,10 +77,10 @@
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
-       <x>380</x>
-       <y>30</y>
+       <x>470</x>
+       <y>20</y>
        <width>141</width>
-       <height>41</height>
+       <height>47</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout_5">
@@ -322,7 +322,7 @@
        <x>30</x>
        <y>110</y>
        <width>341</width>
-       <height>221</height>
+       <height>281</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout_2" columnstretch="0,0,0,0,0">
@@ -452,6 +452,42 @@
           </item>
          </layout>
         </widget>
+        <widget class="QWidget" name="layoutWidget">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>140</y>
+           <width>341</width>
+           <height>33</height>
+          </rect>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <item>
+           <widget class="QLabel" name="numberCycle">
+            <property name="styleSheet">
+             <string notr="true">font: 13pt &quot;Arial&quot;;</string>
+            </property>
+            <property name="text">
+             <string>Number of cycles    </string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="numCycleLineEdit">
+            <property name="placeholderText">
+             <string>e.g. , 2 cycles</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="cycleSetPushButton">
+            <property name="text">
+             <string>SET</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
        </widget>
       </item>
       <item row="2" column="0">
@@ -558,42 +594,6 @@ font: 20pt &quot;Gill Sans&quot;;</string>
      <property name="text">
       <string>Actuator Controller</string>
      </property>
-    </widget>
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>340</y>
-       <width>341</width>
-       <height>33</height>
-      </rect>
-     </property>
-     <layout class="QHBoxLayout" name="horizontalLayout_7">
-      <item>
-       <widget class="QLabel" name="numberCycle">
-        <property name="styleSheet">
-         <string notr="true">font: 13pt &quot;Arial&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Number of cycles    </string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QLineEdit" name="numCycleLineEdit">
-        <property name="placeholderText">
-         <string>e.g. , 2 cycles</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="cycleSetPushButton">
-        <property name="text">
-         <string>SET</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
     </widget>
    </widget>
    <widget class="QWidget" name="tab_2">
