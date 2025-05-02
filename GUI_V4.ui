@@ -16,10 +16,10 @@
   <widget class="QTabWidget" name="tabWidget">
    <property name="geometry">
     <rect>
-     <x>120</x>
-     <y>70</y>
-     <width>661</width>
-     <height>481</height>
+     <x>-10</x>
+     <y>90</y>
+     <width>731</width>
+     <height>441</height>
     </rect>
    </property>
    <property name="currentIndex">
@@ -34,8 +34,8 @@
       <rect>
        <x>30</x>
        <y>30</y>
-       <width>231</width>
-       <height>31</height>
+       <width>381</width>
+       <height>41</height>
       </rect>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -72,220 +72,8 @@
         </property>
        </widget>
       </item>
-     </layout>
-    </widget>
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>470</x>
-       <y>20</y>
-       <width>141</width>
-       <height>47</height>
-      </rect>
-     </property>
-     <layout class="QGridLayout" name="gridLayout_5">
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_10">
-        <property name="text">
-         <string/>
-        </property>
-        <property name="pixmap">
-         <pixmap>pictures/66821.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QLabel" name="batteryStatus_label">
-        <property name="font">
-         <font>
-          <bold>false</bold>
-         </font>
-        </property>
-        <property name="text">
-         <string>Battery Level:</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>380</x>
-       <y>110</y>
-       <width>235</width>
-       <height>261</height>
-      </rect>
-     </property>
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="1" column="1">
-       <layout class="QHBoxLayout" name="horizontalLayout_8">
-        <item>
-         <widget class="QPushButton" name="pushButton_Stop">
-          <property name="styleSheet">
-           <string notr="true"/>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>pictures/stop.jpeg</normaloff>pictures/stop.jpeg</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>15</width>
-            <height>15</height>
-           </size>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="stopLabel">
-          <property name="text">
-           <string>Stop</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="1" column="0">
-       <widget class="QCheckBox" name="Ex2_checkBox">
-        <property name="text">
-         <string>Exercise 2</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <layout class="QHBoxLayout" name="horizontalLayout_2">
-        <item>
-         <widget class="QPushButton" name="pushButton_Run">
-          <property name="styleSheet">
-           <string notr="true"/>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>pictures/play-button-6.png</normaloff>pictures/play-button-6.png</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>15</width>
-            <height>15</height>
-           </size>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="runLabel">
-          <property name="text">
-           <string>Run</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="4" column="0" colspan="2">
-       <widget class="QPushButton" name="homePosition_pushButton">
-        <property name="text">
-         <string>Home position</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QCheckBox" name="Ex1_checkBox">
-        <property name="text">
-         <string>Exercise 1</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="1">
-       <layout class="QHBoxLayout" name="horizontalLayout_9">
-        <item>
-         <widget class="QPushButton" name="pushButton_ChangeDirection">
-          <property name="styleSheet">
-           <string notr="true"/>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="icon">
-           <iconset>
-            <normaloff>pictures/arrows-circle-of-two-rotating-in-clockwise-direction.png</normaloff>pictures/arrows-circle-of-two-rotating-in-clockwise-direction.png</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>15</width>
-            <height>15</height>
-           </size>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="diractionLabel">
-          <property name="text">
-           <string>Direction</string>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-      <item row="5" column="0" colspan="2">
-       <widget class="QPushButton" name="down_pushButton">
-        <property name="text">
-         <string>Down</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <widget class="QCheckBox" name="Ex3_checkBox">
-        <property name="text">
-         <string>Exercise 3</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0" colspan="2">
-       <widget class="QPushButton" name="up_pushButton">
-        <property name="text">
-         <string>Up</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </widget>
-    <widget class="QPushButton" name="newSavePatientPushButton">
-     <property name="geometry">
-      <rect>
-       <x>530</x>
-       <y>390</y>
-       <width>91</width>
-       <height>32</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Save settings</string>
-     </property>
-    </widget>
-    <widget class="QWidget" name="layoutWidget">
-     <property name="geometry">
-      <rect>
-       <x>30</x>
-       <y>70</y>
-       <width>581</width>
-       <height>38</height>
-      </rect>
-     </property>
-     <layout class="QGridLayout" name="gridLayout_4">
-      <item row="0" column="2">
-       <spacer name="horizontalSpacer_2">
+      <item>
+       <spacer name="horizontalSpacer_3">
         <property name="orientation">
          <enum>Qt::Orientation::Horizontal</enum>
         </property>
@@ -297,6 +85,50 @@
         </property>
        </spacer>
       </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QLabel" name="batteryStatus_label">
+          <property name="font">
+           <font>
+            <bold>false</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Battery Level:</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignmentFlag::AlignRight|Qt::AlignmentFlag::AlignTrailing|Qt::AlignmentFlag::AlignVCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1" colspan="2">
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string/>
+          </property>
+          <property name="pixmap">
+           <pixmap>pictures/66821.png</pixmap>
+          </property>
+          <property name="scaledContents">
+           <bool>true</bool>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>70</y>
+       <width>231</width>
+       <height>38</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_4">
       <item row="0" column="0">
        <widget class="QComboBox" name="connect_comboBox">
         <property name="editable">
@@ -312,17 +144,37 @@
         <property name="text">
          <string>Connect</string>
         </property>
+        <property name="default">
+         <bool>true</bool>
+        </property>
        </widget>
       </item>
      </layout>
+    </widget>
+    <widget class="QLabel" name="title">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>11</y>
+       <width>171</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+font: 20pt &quot;Gill Sans&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Actuator Controller</string>
+     </property>
     </widget>
     <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>30</x>
        <y>110</y>
-       <width>341</width>
-       <height>281</height>
+       <width>521</width>
+       <height>301</height>
       </rect>
      </property>
      <layout class="QGridLayout" name="gridLayout_2" columnstretch="0,0,0,0,0">
@@ -338,29 +190,20 @@
       <property name="verticalSpacing">
        <number>15</number>
       </property>
-      <item row="2" column="2">
-       <widget class="QPushButton" name="setSpeedPushButton">
-        <property name="text">
-         <string>SET</string>
+      <item row="2" column="0" colspan="5">
+       <widget class="QGroupBox" name="manualSetting">
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
         </property>
-       </widget>
-      </item>
-      <item row="1" column="2" colspan="2">
-       <widget class="QLineEdit" name="lineEdit_2">
-        <property name="placeholderText">
-         <string>last name</string>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
         </property>
-       </widget>
-      </item>
-      <item row="2" column="3">
-       <widget class="QPushButton" name="resetSpeedPushButton">
-        <property name="text">
-         <string>RESET</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0" colspan="5">
-       <widget class="QGroupBox" name="angleSetting">
         <property name="font">
          <font>
           <family>Arial</family>
@@ -369,54 +212,129 @@
           <bold>false</bold>
          </font>
         </property>
+        <property name="mouseTracking">
+         <bool>false</bool>
+        </property>
         <property name="styleSheet">
          <string notr="true">font: 13pt &quot;Arial&quot;;</string>
         </property>
         <property name="title">
-         <string>Angle control pane</string>
+         <string>Manual Control Pane</string>
         </property>
-        <widget class="QWidget" name="layoutWidget">
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+        <widget class="QWidget" name="gridLayoutWidget_3">
          <property name="geometry">
           <rect>
-           <x>180</x>
-           <y>100</y>
-           <width>146</width>
-           <height>32</height>
+           <x>10</x>
+           <y>30</y>
+           <width>361</width>
+           <height>197</height>
           </rect>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_6">
-          <item>
-           <widget class="QPushButton" name="setAnglePushButton">
-            <property name="text">
-             <string>SET</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QPushButton" name="resetAnglePushButton">
-            <property name="text">
-             <string>RESET</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
-        <widget class="QWidget" name="layoutWidget">
-         <property name="geometry">
-          <rect>
-           <x>11</x>
-           <y>41</y>
-           <width>420</width>
-           <height>50</height>
-          </rect>
-         </property>
-         <layout class="QVBoxLayout" name="verticalLayout_3">
-          <item>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="1" column="0">
            <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="maxLabel">
+              <property name="text">
+               <string>MAX angle:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="maxLineEdit">
+              <property name="placeholderText">
+               <string>e.g. , 90 degree</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_7">
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="note">
+            <property name="font">
+             <font>
+              <family>Arial</family>
+              <pointsize>13</pointsize>
+              <italic>false</italic>
+              <bold>false</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: rgb(66, 66, 66);</string>
+            </property>
+            <property name="text">
+             <string>Note: Angle must be between 0 and 120 degrees.</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_7">
+            <item>
+             <widget class="QPushButton" name="setAnglePushButton">
+              <property name="text">
+               <string>SET</string>
+              </property>
+              <property name="default">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="resetAnglePushButton">
+              <property name="text">
+               <string>RESET</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_6">
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="0" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
             <item>
              <widget class="QLabel" name="minLabel">
               <property name="text">
-               <string>MIN:</string>
+               <string>MIN angle: </string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
               </property>
              </widget>
             </item>
@@ -428,61 +346,127 @@
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="maxLabel">
+             <spacer name="horizontalSpacer_5">
+              <property name="orientation">
+               <enum>Qt::Orientation::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item row="3" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="speed">
+              <property name="styleSheet">
+               <string notr="true">font: 13pt &quot;Arial&quot;;</string>
+              </property>
               <property name="text">
-               <string>MAX:</string>
+               <string>Speed</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLineEdit" name="maxLineEdit">
-              <property name="placeholderText">
-               <string>e.g. , 90 degree</string>
+             <widget class="QSpinBox" name="speedSpinBox">
+              <property name="mouseTracking">
+               <bool>false</bool>
+              </property>
+              <property name="whatsThis">
+               <string/>
+              </property>
+              <property name="frame">
+               <bool>true</bool>
+              </property>
+              <property name="readOnly">
+               <bool>false</bool>
+              </property>
+              <property name="buttonSymbols">
+               <enum>QAbstractSpinBox::ButtonSymbols::PlusMinus</enum>
+              </property>
+              <property name="showGroupSeparator" stdset="0">
+               <bool>false</bool>
+              </property>
+              <property name="displayIntegerBase">
+               <number>10</number>
               </property>
              </widget>
             </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QLabel" name="numberCycle">
+                <property name="font">
+                 <font>
+                  <family>Arial</family>
+                  <pointsize>13</pointsize>
+                  <italic>false</italic>
+                  <bold>false</bold>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font: 13pt &quot;Arial&quot;;</string>
+                </property>
+                <property name="text">
+                 <string>Number of cycles</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="numCycleLineEdit">
+                <property name="placeholderText">
+                 <string>e.g. , 2 cycles</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
            </layout>
           </item>
-          <item>
-           <widget class="QLabel" name="note">
-            <property name="text">
-             <string>Note: Angle must be between 0 and 120 degrees.</string>
-            </property>
-           </widget>
-          </item>
          </layout>
         </widget>
-        <widget class="QWidget" name="layoutWidget">
+        <widget class="QWidget" name="verticalLayoutWidget">
          <property name="geometry">
           <rect>
-           <x>0</x>
-           <y>140</y>
-           <width>341</width>
-           <height>33</height>
+           <x>380</x>
+           <y>30</y>
+           <width>135</width>
+           <height>134</height>
           </rect>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <layout class="QVBoxLayout" name="verticalLayout">
           <item>
-           <widget class="QLabel" name="numberCycle">
-            <property name="styleSheet">
-             <string notr="true">font: 13pt &quot;Arial&quot;;</string>
-            </property>
+           <widget class="QPushButton" name="up_pushButton">
             <property name="text">
-             <string>Number of cycles    </string>
+             <string>Up</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLineEdit" name="numCycleLineEdit">
-            <property name="placeholderText">
-             <string>e.g. , 2 cycles</string>
+           <widget class="QPushButton" name="homePosition_pushButton">
+            <property name="text">
+             <string>Home position</string>
+            </property>
+            <property name="autoDefault">
+             <bool>false</bool>
+            </property>
+            <property name="default">
+             <bool>true</bool>
+            </property>
+            <property name="flat">
+             <bool>false</bool>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="cycleSetPushButton">
+           <widget class="QPushButton" name="down_pushButton">
             <property name="text">
-             <string>SET</string>
+             <string>Down</string>
             </property>
            </widget>
           </item>
@@ -490,43 +474,31 @@
         </widget>
        </widget>
       </item>
-      <item row="2" column="0">
-       <widget class="QLabel" name="speed">
-        <property name="styleSheet">
-         <string notr="true">font: 13pt &quot;Arial&quot;;</string>
+      <item row="1" column="2" colspan="3">
+       <widget class="QLineEdit" name="lastNameLineEdit">
+        <property name="enabled">
+         <bool>false</bool>
         </property>
-        <property name="text">
-         <string>Speed</string>
+        <property name="placeholderText">
+         <string>last name</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="1">
-       <widget class="QSpinBox" name="speedSpinBox">
-        <property name="mouseTracking">
-         <bool>false</bool>
+      <item row="0" column="0">
+       <widget class="QRadioButton" name="selectPatient_radioButton">
+        <property name="text">
+         <string>select patient</string>
         </property>
-        <property name="whatsThis">
-         <string/>
-        </property>
-        <property name="frame">
-         <bool>true</bool>
-        </property>
-        <property name="readOnly">
-         <bool>false</bool>
-        </property>
-        <property name="buttonSymbols">
-         <enum>QAbstractSpinBox::ButtonSymbols::PlusMinus</enum>
-        </property>
-        <property name="showGroupSeparator" stdset="0">
-         <bool>false</bool>
-        </property>
-        <property name="displayIntegerBase">
-         <number>10</number>
-        </property>
+        <attribute name="buttonGroup">
+         <string notr="true">patientsButtonGroup</string>
+        </attribute>
        </widget>
       </item>
       <item row="0" column="1">
        <widget class="QComboBox" name="patientsComboBox">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="currentText">
          <string>Anna Schmidt</string>
         </property>
@@ -556,44 +528,294 @@
        </widget>
       </item>
       <item row="1" column="0">
-       <widget class="QLabel" name="label">
+       <widget class="QRadioButton" name="newPatient_radioButton">
         <property name="text">
-         <string>new patient:</string>
+         <string>new patient</string>
         </property>
+        <attribute name="buttonGroup">
+         <string notr="true">patientsButtonGroup</string>
+        </attribute>
        </widget>
       </item>
-      <item row="0" column="2" colspan="2">
-       <widget class="QPushButton" name="patientLoadPushButton">
+      <item row="0" column="4">
+       <widget class="QPushButton" name="newSavePatientPushButton">
         <property name="text">
-         <string>Load settings</string>
+         <string>Save settings</string>
         </property>
        </widget>
       </item>
       <item row="1" column="1">
-       <widget class="QLineEdit" name="lineEdit">
+       <widget class="QLineEdit" name="firstNameLineEdit">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
         <property name="placeholderText">
          <string>first name</string>
         </property>
        </widget>
       </item>
+      <item row="0" column="2" colspan="2">
+       <widget class="QPushButton" name="patientLoadPushButton">
+        <property name="enabled">
+         <bool>false</bool>
+        </property>
+        <property name="text">
+         <string>Load settings</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
-    <widget class="QLabel" name="title">
+    <widget class="QWidget" name="verticalLayoutWidget_4">
      <property name="geometry">
       <rect>
-       <x>1</x>
-       <y>11</y>
-       <width>171</width>
-       <height>23</height>
+       <x>570</x>
+       <y>180</y>
+       <width>147</width>
+       <height>226</height>
       </rect>
      </property>
-     <property name="styleSheet">
-      <string notr="true">color: rgb(0, 0, 0);
-font: 20pt &quot;Gill Sans&quot;;</string>
-     </property>
-     <property name="text">
-      <string>Actuator Controller</string>
-     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <widget class="QCheckBox" name="Ex1_checkBox">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Exercise 1</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">exercisesButtonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="Ex2_checkBox">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Exercise 2</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">exercisesButtonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+        <item>
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Orientation::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="Ex3_checkBox">
+          <property name="font">
+           <font>
+            <pointsize>13</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Exercise 3</string>
+          </property>
+          <attribute name="buttonGroup">
+           <string notr="true">exercisesButtonGroup</string>
+          </attribute>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QPushButton" name="pushButton_Run">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>pictures/play-button-6.png</normaloff>pictures/play-button-6.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="runLabel">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Run</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <item>
+           <widget class="QPushButton" name="pushButton_Stop">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>pictures/stop.jpeg</normaloff>pictures/stop.jpeg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="stopLabel">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Stop</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_4">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <item>
+           <widget class="QPushButton" name="pushButton_ChangeDirection">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>pictures/arrows-circle-of-two-rotating-in-clockwise-direction.png</normaloff>pictures/arrows-circle-of-two-rotating-in-clockwise-direction.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>15</width>
+              <height>15</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="diractionLabel">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Direction</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_8">
+            <property name="orientation">
+             <enum>Qt::Orientation::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="verticalSpacer">
+        <property name="orientation">
+         <enum>Qt::Orientation::Vertical</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>20</width>
+          <height>40</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
     </widget>
    </widget>
    <widget class="QWidget" name="tab_2">
@@ -679,4 +901,8 @@ font: 20pt &quot;Gill Sans&quot;;</string>
   <include location="pictures/directionBoarder.qrc"/>
  </resources>
  <connections/>
+ <buttongroups>
+  <buttongroup name="exercisesButtonGroup"/>
+  <buttongroup name="patientsButtonGroup"/>
+ </buttongroups>
 </ui>
