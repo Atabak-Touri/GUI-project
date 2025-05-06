@@ -538,7 +538,7 @@ font: 20pt &quot;Gill Sans&quot;;</string>
        </widget>
       </item>
       <item row="0" column="4">
-       <widget class="QPushButton" name="newSavePatientPushButton">
+       <widget class="QPushButton" name="savePushButton">
         <property name="text">
          <string>Save settings</string>
         </property>
